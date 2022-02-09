@@ -1,0 +1,145 @@
+* {
+  padding: auto;
+  margin: 0;
+}
+
+a {
+  color: #013888 !important;
+  transition-duration: 0.5s !important;
+  font-size: large;
+}
+a:hover {
+  color: #dc2039 !important;
+  transition-duration: 0.5s;
+}
+
+.banner {
+  background-image: url("/banner.927b9c78.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+h5 {
+  color: #013888;
+  line-height: 1.6;
+}
+
+h6 {
+  color: #dc2039;
+  font-weight: bold;
+}
+
+.myButt {
+  background-color: #013888 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  width: 180px;
+  transition-duration: 0.8s;
+}
+.myButt:hover {
+  background-color: #dc2039 !important;
+  transition-duration: 0.8s;
+}
+
+.card {
+  transition-duration: 0.6s !important;
+}
+.card .card-title {
+  text-align: center;
+}
+.card:hover {
+  background-color: #013888;
+  color: white;
+  transition-duration: 0.6s;
+}
+.card:hover .card-title {
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.chatButt {
+  color: #dc2039 !important;
+  border-color: #dc2039 !important;
+  transition-duration: 0.8s;
+}
+.chatButt:hover {
+  color: white !important;
+  border-color: white !important;
+  background-color: #dc2039 !important;
+  transition-duration: 0.8s;
+}
+.chatButt:focus {
+  border-color: #dc2039 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc2039 !important;
+  outline: 0 none !important;
+}
+
+.zoom:hover {
+  transform: scale(1.08);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.zoom:not(:hover) {
+  transform: scale(1);
+  transition-duration: 0.6s;
+}
+
+.footer {
+  background-color: #555555;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #dc2039 !important;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  color: #dc2039;
+  border-right: 8px solid #dc2039;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #dc2039;
+}
+
+.react-chatbot-kit-user-avatar-container {
+  background-color: #dc2039;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option-button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 8px;
+  border-color: #dc2039;
+  background: transparent;
+  text-align: center;
+}
+
+.flashcard-container {
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #f1e6e6;
+}
+
+.flashcard-button {
+  background: transparent;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: #dc2039;
+  margin: 5px;
+  width: 150px;
+}
+
+#modal:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

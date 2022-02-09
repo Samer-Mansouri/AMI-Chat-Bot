@@ -1,0 +1,37 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-core": "^6.26.3",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "@react-google-maps/api": "^2.5.0",
+    "axios": "^0.24.0",
+    "google-maps-react": "^2.0.6",
+    "mobx-react": "^7.2.1",
+    "react": "^17.0.2",
+    "react-chatbot-kit": "^2.0.1",
+    "react-dom": "^17.0.2",
+    "react-fade-in": "^2.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-hook-geolocation": "^1.0.9",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^5.3.0",
+    "react-simple-chatbot": "^0.6.1",
+    "styled-components": "^5.3.3"
+  }
+}

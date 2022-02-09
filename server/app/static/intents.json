@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "les salutations",
+      "patterns": [
+        "bonjour",
+        "salut",
+        "Comment vas-tu ",
+        "Est-ce que quelqu'un est là?",
+        "Hello",
+        "Bonne journée"
+        
+      ],
+      "responses": [
+        "salut",
+        "bonjour, Merci de votre visite",
+        "salut, que puis-je faire pour vous",
+        "Salut, comment puis-je aider?"
+      ]
+    },
+    {
+      "tag":"Demande Devis automobile",
+      "patterns":[
+        "je peux voir un devis automobile?",
+        "un devis automobile",
+        "je peux consulter devis automobile?",
+        "devis automobile"
+      ],
+
+     "responses":[
+   " Oui bien sur, consulter notre site web : https://espaceclient.assurancesami.tn/EspaceClient/demander_devis_auto.aspx"
+  
+]
+    },
+
+    {
+      "tag":"DemandeDevisautrement",
+      "patterns":[
+        "je peux voir un devis santé?",
+        "un devis santé",
+        "je peux consulter devis santé?",
+        "devis santé",
+        "je peux voir un devis vie?",
+        "un devis santé",
+        "je peux consulter devis vie?",
+        "devis  vie?",
+        "je peux voir un devis transport?",
+        "un devis santé",
+        "je peux consulter devis transport?",
+        "devis transport"
+      
+      ],
+
+     "responses":[
+   " Oui bien sur, consulter notre site web https://espaceclient.assurancesami.tn/EspaceClient/demander_devis_auto.aspx"
+]
+    },
+
+
+    {
+      "tag": "Aurevoir",
+      "patterns": ["Bye", "A plus tard", "au revoir"],
+      "responses": [
+        "A plus tard, merci de votre visite",
+        "Bonne journée",
+        "Au revoir! Revenez bientôt."
+      ]
+    },
+    {
+      "tag": "merci",
+      "patterns": ["Thanks", "Thank you", "C'est utile", "Merci beaucoup!"],
+      "responses": ["Heureux d'aider!", "À tout moment!", "Mon plaisir"]
+    },
+    {
+      "tag": "réclamation",
+      "patterns": [
+        "je peux consulter l'avancement de ma réclamation",
+        "l'avancement de ma réclamation",
+        "réclamation"
+      ],
+      "responses": [
+        "oui bien sur!, saisir votre nom et votre numéro de constat"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "assurancevoiture",
+      "patterns": [
+        "comment je peux assuré ma voiture?",
+        "elle est possible d'assurez  ma voiture?",
+        "assurance voiture?"
+      ],
+      "responses": [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It"
+        
+      ]
+    },
+    {
+    "tag": "assurancetransport",
+      "patterns": [
+        "comment je peux assuré le transport?",
+        "elle  est possible d'assurez le transport?",
+        "assurance transport?"
+      ],
+      "responses": [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It"
+        
+      ]
+    },
+    {
+      "tag": "assurancevie",
+        "patterns": [
+          "comment je peux assuré  ma vie?",
+          "elle est possible d'assurez  ma vie?",
+          "assurance ma vie?"
+        ],
+        "responses": [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It"
+          
+        ]
+      },
+
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "locationverif",
+      "patterns": [
+        "tourvez pour moi  agance  près de moi"
+      ],
+      "responses": [
+        "facile! donnez  votre   ville"
+        
+        
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "ariana"
+      ],
+      "responses": [
+        "14, Rue El Hédi Said - 2080 Ariana",
+        "2, Place de l'Indépendance - 2041 CITE ETTADHAMEN",
+        "16, Avenue de la Liberté, Menzah 5",
+        "13, Av. Habib Bourguiba -2080 ARIANA VILLE",
+        "Yasmine Tour Zone Urbaine Nord Bloc B 2ème Etage",
+        "59, Av. Khaled Ibn Walid -2036 SOUKRA"
+      ]
+    },
+
+
+    {
+      "tag": "location",
+      "patterns": [
+        "tunis"
+      ],
+      "responses": [
+        "31, Rue d'Italie - 1001 Tunis",
+        "2, Rue Taher Ben Achour - 2078 LA MARSA",
+        "Cité les Pins,Zone Nord Est, 1053 - les Berges du Lac II - Tunis",
+        "21, Rue d'El Quodes -1002 TUNIS",
+        "129, Av. Louis Bbraille - 1003 CITE EL KHADRA",
+        "15, Rue de Mauritanie -1002 TUNIS"
+      ]
+    },
+
+
+    {
+      "tag": "location",
+      "patterns": [
+        "gafsa"
+      ],
+      "responses": [
+        "Av. Président -2130 METLAOUI"
+        
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "béja"
+      ],
+      "responses": [
+        "2, Av. de France -9000 BEJA"
+        
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "ben arous"
+      ],
+      "responses": [
+        "83, Av. 2 Mars 1934 -2034 EZZAHRA",
+        "48, Route de Morneg Km7, El Yesminette -2013 BEN AROUS",
+        "Rue Mahdia -2074 EL MOUROUJ"
+        
+      ]
+    }
+  ]
+}
